@@ -23,6 +23,7 @@ const playerSchema = new mongoose.Schema({
   role: { type: String, required: true },
   battingPosition: { type: String }, 
   battingPlaying: { type: String },  
+  bowlingStyle: { type: String },  
   registeredAt: { type: Date, default: Date.now }
 });
 
